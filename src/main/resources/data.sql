@@ -1,0 +1,9 @@
+INSERT INTO CUSTOMERS (NAME, SURNAME, AGE, PHONE_NUMBER)
+VALUES (''MAX'', ''MAXOV'', 11, 11111),
+       (''IVAN'', ''IVANOV'', 22, 22222),
+       (''LEO'', ''LEONOV'', 33, 33333);
+
+INSERT INTO ORDERS (PRODUCT_NAME, CUSTOMER_ID, AMOUNT)
+VALUES (''some1'', 1, 100),
+       (''some2'', 2, 200),
+       (''some3'', 3, 300);
